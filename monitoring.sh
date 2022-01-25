@@ -1,4 +1,3 @@
-#!bin/bash
 #!/bin/bash
 wall $'#Architecture: ' `uname -a` \
 $'\n#CPU physical: '`cat /proc/cpuinfo | grep processor | wc -l` \
